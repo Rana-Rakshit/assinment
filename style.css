@@ -87,4 +87,36 @@ span {
     /* about section end */
 
     /* recipies section start */
+    .recipies_area{
+    margin: 0 auto;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    
+    }
+
+    .recipies_area h1{
+        font-size: 32px;
+        color: #808080;
+        text-align: center;
+    }
+    .recipies_area .recipies_para{
+    width: 39%;
+    margin: 16px auto;
+    padding-bottom: 16px;
+    text-align: center;
+    font-size: 15px;
+    color: #808080;
+    }
+    .card_section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 15px;
+    box-shadow: 5px 7px 40px rgb(212, 212, 212);
+    margin: 0 16px;
+    padding: 16px;
+    border-radius: 16px;
+    }
+    .card_section img{
+        width: 320px;
+    }
     /* recipies section end */
