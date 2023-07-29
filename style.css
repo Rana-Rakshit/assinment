@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&family=Lobster&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600&display=swap');
+
+/* google font 
+font-family: 'Lato', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+span,
+a,
+p{
+    font-family: 'Lato', sans-serif;
+}
+h1,
+h2,
+h3,
+h4{
+    font-family: 'Poppins', sans-serif; 
+}
+span {
+    color: #F5954E;
+}
+.btn{
+    text-decoration: none;
+    background: linear-gradient(to right, #fa8226, #FC4F2F);
+    padding: 16px 33.6px;
+    border-radius: 28px;
+    color: white;
+    box-shadow: 2px 4px 10px rgb(250, 121, 121);
+    border: none;
+}
+
+/* banner section start */
+.hero_area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 13px;
+}
+.hero_contant h1{
+    font-size: 50px;
+    line-height: 1.30;
+    color: rgb(80, 77, 77);
+}
+.hero_contant p{
+    color: #808080;
+    padding: 36px 0;
+    font-family: math;
+}
+    /* banner section end */
+
+    /* about section start */
+    .banner_area{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 13px;
+    }
+    .banner_image{
+    padding: 65px 0 0 230px;
+    }
+    .banner_image img{
+    width: 70%;
+    }
+    .banner_about h2{
+    font-size: 40px;
+    color: gray;
+    line-height: 3;
+    }
+    .banner_about p{
+    width: 60%;
+    color: gray;
+    line-height: 1.5;
+    padding-bottom: 60px;
+    font-family: serif;
+    }
+    /* about section end */
+
+    /* recipies section start */
+    /* recipies section end */
